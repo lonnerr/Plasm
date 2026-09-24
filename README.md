@@ -13,15 +13,25 @@ mean |F1+F2+F3| = 1.285764e-01
 max  |F1+F2+F3| = 9.903413e-01
 
 ForceModel(
+
   (network): Sequential(
+  
     (0): Linear(in_features=6, out_features=128, bias=True)
+    
     (1): ReLU()
+    
     (2): Linear(in_features=128, out_features=128, bias=True)
+    
     (3): ReLU()
+    
     (4): Linear(in_features=128, out_features=128, bias=True)
+    
     (5): ReLU()
+    
     (6): Linear(in_features=128, out_features=9, bias=True)
+    
   )
+  
 )
 
 
